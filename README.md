@@ -1,57 +1,87 @@
-# Bluewater Management - API
-This is the back-end repository for the an investment accounts project.  This
-application allows users to create, read, update and destroy their investment account
-holdings.
+## Bluewater Management -  Client
 
-## How it works
-User will be allowed to authenticate their accounts by signing-up and into their
-portal.
+This is the client repository for the web app -- Bucket List. This website allows users to view their bucket list, where they can add, update, and delete items.
 
 ## Directory
-    +  Active Site:
-    +  Bluewater Management
-      - Front End Repo:
-    + Bluewater Management
-      - Back End Repo:
-    +  [Heroku](https://bluewater-mgnt-api.herokuapp.com/)
 
-## Entity Resource Diagram
-    [ERD](https://i.imgur.com/sVMAU3S.jpg)
+Bucket List
+1\.  [Front End](https://github.com/numbah5/bucketlist-client)
+2\.  [Backend](https://github.com/numbah5/bucketlist-api)
+3\.  [Deployed](https://numbah5.github.io/bucketlist-client/)
+4\.  [Heroku](https://bucketlist-app-api.herokuapp.com/)
 
-## Technologies used
-    + Ajax
-    + Bootstrap
-    + CSS3
-    + Express.js
-    + Handlebars
-    + HTML5
-    + JavaScript
-    + jQuery
-    + MongoDB and Mongoose
-    + Node.js
-    + Sass
+Bluewater Management
+1\.  [Backend](https://github.com/anderson-aristotle/bluewater-mgnt-api)
+2\.  [Front End](https://github.com/anderson-aristotle/bluewater-mgnt-client)
+3\.  [Deployed](<>)
+4\.  [Heroku](https://bluewater-mgnt-api.herokuapp.com/)
+
+## How it works
+
+This is a prototype of a financial services product. User will be able to log-in
+and plan their financial future by creating bucketlist items and forming
+investment accounts to help them achieve their goals.
+
+## Technology
+
+-   Ajax
+-   Bootstrap
+-   CSS3
+-   Express.js
+-   Handlebars
+-   HTML5
+-   JavaScript
+-   jQuery
+-   MongoDB and Mongoose
+-   Node.js
+-   Sass
 
 ## User Stories
-    + As user, I'd like to sign up with email and password.
-    + As a registered user, I'd like to sign in with email and password.
-    + As a signed in user, I'd like to change password.
-    + As a signed in user, I'd like to sign out.
-    + As a signed in user, I'd like to create a bucket list item with a title and description.
-    + As a signed in user, I'd like to update my bucket list item's title and description.
-    + As a signed in user, I'd like to delete my bucket list item.
-    + As a signed in user, I'd like to see all my bucket list items but not other users'.
-    + As a signed-in user, I'd like to see bucket list items I've completed.
 
+As an unregistered user, I would like to sign up with email and password.
+As a registered user, I would like to sign in with email and password.
+As a signed in user, I would like to change password.
+As a signed in user, I would like to sign out.
+
+As a signed in user, I would like to create a bucket list item with a title and description.
+As a signed in user, I would like to update my bucket list item's title and description.
+As a signed in user, I would like to delete my bucket list item.
+As a signed in user, I would like to see all my bucket list items.
+
+As a signed in user, I would like to create an investment account.
+As a signed in user, I would like to update my account's type and amount.
+As a signed in user, I would like to delete my account.
+As a signed in user, I would like to see all my accounts.
+
+## Wireframe
+
+1.  [Bucket List](https://imgur.com/FWO58Lt)
+2.  [Investment Account](https://imgur.com/9tVFE62)
+
+## Entity Relationship Diagram
+
+1.  [Bucket List](https://i.imgur.com/sVMAU3S.jpg)
+2.  [Investment Account](https://imgur.com/nytCtqQ)
 
 ## Planning, process, and problem-solving strategies
 
+1.  Planned page layout via wireframe.
+2.  Discussed user interface buttons and forms.
+3.  Mapped HTML elements with eventlisteners to control user experience.
+4.  Linked the backend api with the front-end browser.
 
-## Routes and Methods
-    + '/sign-up' --> router.post()
-    + '/sign-in' --> router.post()
-    + '/sign-out' --> router.delete()
-    + '/change-password' --> router.patch()
-    + '/list-items' --> router.get(), router.post()
-    + '/list-items/:id' --> router.get(), router.patch(), router.delete()
-    + '/account' --> router.get(), router.post()
-    + '/account/:id' --> router.get(), router.patch(), router.delete()
+## Future Goal(s)
+
+Integrate with a 3rd location-based API:
+
+-   Allows a user to search for a location or venues or events
+-   Live financial updates on investment weights and percentages
+-   Alow user to contribute cash to investment classes
+-   Add social features to site, such as chat boxes
+-   Allow users to make certain list items public, but default to private.
+
+    ## [License](LICENSE)
+
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+2.  All software code is licensed under GNU GPLv3. [ ] For commercial use or
+    alternative licensing, please contact legal@ga.co.
