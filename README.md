@@ -13,7 +13,7 @@ Bucket List
 Bluewater Management
 1.  [Backend](https://github.com/anderson-aristotle/bluewater-mgnt-api)
 2.  [Front End](https://github.com/anderson-aristotle/bluewater-mgnt-client)
-3.  [Deployed](<>)
+3.  [Deployed]()
 4.  [Heroku](https://bluewater-mgnt-api.herokuapp.com/)
 
 ## How it works
